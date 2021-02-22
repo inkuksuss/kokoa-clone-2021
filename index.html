@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome KakaoTalk</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="navbar__column">
+            <span class='navbar__column--clock'>00:00</span>
+        </div>
+        <div class="navbar__column">
+            <span class=navbar__column--battery>0%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>    
+    </nav>
+    <header class="header__column">
+        <h1 class="header__column--title">
+            Welcome to KakaoTalk
+        </h1>
+        <p class="header__column--description">
+            If you have Kakao Account, <br> log in with your email or phone number.
+        </p>
+    </header>
+    <form action='friends.html' method='get' id='login-form'>
+        <input name='username' type='text' placeholder='Email or Phone number'/>
+        <input name='password' type='password' placeholder='Password'/>
+        <input type='submit' value='Log in'/>
+        <a href="#" class="link__userinfo">Find Kakao Account or Password</a>
+    </form>
+</body>
+<script src='clock.js'></script>
+<script src="https://kit.fontawesome.com/5dc9842335.js" crossorigin="anonymous"></script>
+</html>
