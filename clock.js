@@ -1,6 +1,6 @@
-const Container = document.querySelector('.navbar__column');
-const clockTitle = document.querySelector('.navbar__column--clock');
-const batteryNumber = document.querySelector('.navbar__column--battery');
+const Container = document.querySelector('.status__column');
+const clockTitle = document.querySelector('.status__column--clock');
+const batteryNumber = document.querySelector('.status__column--battery');
 
 function getRandomInt(){
     const battery = Math.floor(Math.random() * 100) + 1;

@@ -1,0 +1,43 @@
+.nav {
+  background-color: var(--background);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid var(--basic-color);
+}
+
+.nav-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-box__list {
+  text-align: center;
+  padding: 25px 50px;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+.nav-box__list:nth-child(2) {
+  position: relative;
+}
+
+.nav-box__list:hover {
+  background-color: gainsboro;
+  border-radius: 10px;
+}
+
+.nav-box__list span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: tomato;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 100px;
+}
