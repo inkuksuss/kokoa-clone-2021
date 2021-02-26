@@ -19,8 +19,13 @@
   justify-content: space-between;
 }
 
+.chat__menu-icons-list-icon {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 .chat__menu-icons-list-icon:not(.first) {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .chat {
@@ -63,5 +68,10 @@
 
 .chat:hover {
   background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.chat__menu-icons-list-icon:hover {
+  background-color: var(--basic-color);
   border-radius: 5px;
 }
