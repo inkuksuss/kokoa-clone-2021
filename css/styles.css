@@ -6,6 +6,7 @@
 
 @import "pages/login.css";
 @import "pages/friends.css";
+@import "pages/chats.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

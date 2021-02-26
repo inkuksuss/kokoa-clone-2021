@@ -19,7 +19,7 @@
   width: 25%;
 }
 
-.nav-box__list:nth-child(2) {
+.nav-box__list a {
   position: relative;
 }
 
@@ -28,7 +28,7 @@
   border-radius: 10px;
 }
 
-.nav-box__list span {
+.nav-box__list a span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,6 +38,6 @@
   background-color: tomato;
   color: white;
   position: absolute;
-  top: 15px;
-  left: 100px;
+  bottom: 15px;
+  left: 15px;
 }

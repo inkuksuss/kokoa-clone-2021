@@ -1,0 +1,40 @@
+.main-position {
+  margin: 0px var(--public-margin);
+}
+
+.chat__menu {
+  padding-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat__menu-title h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.chat__menu-icons-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat__menu-icons-list-icon:not(.first) {
+  margin-left: 40px;
+}
+
+.chat {
+  display: flex;
+  width: 100%;
+}
+
+.chat-photo {
+  justify-content: flex-start;
+}
+.chat-text {
+  justify-content: center;
+}
+
+.chat-time {
+  justify-content: flex-end;
+}

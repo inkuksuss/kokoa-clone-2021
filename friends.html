@@ -54,18 +54,27 @@
         <div class="channel-list">
             <div class="channel-list__option">
                 <div class="channel-list__option-title">Channel</div>
-                <div class="channel-list__option-icon"><i class="fas fa-chevron-up"></i></div>
-            </div>
-            <div class="channel">
-                <div class="channel-profile">
-                    <div class="channel-profile--photo">
-                        <img src="https://pht.qoo-static.com/KwGCiEolNEeR9Q4RFOnDtb8Pvqs3LNiQEdE07wMCnoULO3yLUprHbGGLBYNEt8k7WJY=w512"/>
+                <div class="channel-list__option-icon">
+                    <div class="channel-list__option-icon--hide">
+                        <i class="hideBtn fas fa-chevron-up"></i>
                     </div>
-                    <div class="channel-profile--name">Channel</div>
+                    <div class="channel-list__option-icon--show">
+                        <i class="showBtn fas fa-chevron-down"></i>
+                    </div>
                 </div>
-                <div class="channel-icons">
-                    <span>2</span>
-                    <div><i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="display">
+                <div class="channel">
+                    <div class="channel-profile">
+                        <div class="channel-profile--photo">
+                            <img src="https://pht.qoo-static.com/KwGCiEolNEeR9Q4RFOnDtb8Pvqs3LNiQEdE07wMCnoULO3yLUprHbGGLBYNEt8k7WJY=w512"/>
+                        </div>
+                        <div class="channel-profile--name">Channel</div>
+                    </div>
+                    <div class="channel-icons">
+                        <span>2</span>
+                        <div><i class="fas fa-chevron-right"></i></div>
+                    </div>
                 </div>
             </div>  
         </div>
@@ -75,8 +84,8 @@
         <ul class="nav-box">
             <li class='nav-box__list'><a href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
             <li class='nav-box__list'>
-                <span>1</span>
                 <a href="#">
+                    <span>1</span>
                     <i class="far fa-comment fa-2x"></i>
                 </a>
             </li>
@@ -86,5 +95,6 @@
     </nav>
 </body>
 <script src="clock.js"></script>
+<script src="hideBtn.js"></script>
 <script src="https://kit.fontawesome.com/5dc9842335.js" crossorigin="anonymous"></script>
 </html>

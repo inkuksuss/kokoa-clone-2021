@@ -69,6 +69,18 @@
   font-size: 18px;
 }
 
+.channel-list__option-icon--hide {
+  display: flex;
+}
+
+.channel-list__option-icon--show {
+  display: none;
+}
+
+.display {
+  display: block;
+}
+
 .channel {
   display: flex;
   justify-content: space-between;
@@ -95,10 +107,26 @@
   display: flex;
   align-items: center;
   font-size: 22px;
-  color: rgba(0, 0, 0, 0.2);
+  color: rgba(90, 70, 70, 0.2);
   font-weight: 300;
 }
 
 .channel-icons :last-child {
   margin-left: 5px;
+}
+
+.display.hide {
+  display: none;
+}
+
+.display.show {
+  display: block;
+}
+
+.channel-list__option-icon--hide.hide {
+  display: none;
+}
+
+.channel-list__option-icon--show.hide {
+  display: flex;
 }
