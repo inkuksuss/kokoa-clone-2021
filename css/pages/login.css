@@ -1,6 +1,13 @@
+.status {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
 .header__column {
   text-align: center;
   margin: 90px 0px;
+  margin-bottom: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;

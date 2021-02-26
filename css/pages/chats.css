@@ -25,16 +25,43 @@
 
 .chat {
   display: flex;
+  justify-content: space-between;
   width: 100%;
 }
 
-.chat-photo {
-  justify-content: flex-start;
+.chat-photo img {
+  margin-right: 0px;
 }
+
 .chat-text {
-  justify-content: center;
+  min-width: 270px;
 }
 
 .chat-time {
-  justify-content: flex-end;
+  display: flex;
+  align-items: flex-start;
+  height: 38px;
+}
+
+.chat-time div:first-child {
+  position: relative;
+}
+
+.notice {
+  width: 20px;
+  height: 20px;
+  background-color: tomato;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  top: 4px;
+  left: 9px;
+}
+
+.chat:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
